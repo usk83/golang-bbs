@@ -11,6 +11,10 @@ GET     /api/v1/comments                        ApiV1Comments.Index
 GET     /api/v1/comments/:id                    ApiV1Comments.Show
 POST    /api/v1/comments                        ApiV1Comments.Create
 DELETE  /api/v1/comments/:id                    ApiV1Comments.Delete
+GET     /api/v1/terms                           ApiV1Terms.Index
+GET     /api/v1/terms/:id                       ApiV1Terms.Show
+POST    /api/v1/terms                           ApiV1Terms.Create
+DELETE  /api/v1/terms/:id                       ApiV1Terms.Delete
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

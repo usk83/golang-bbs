@@ -18,6 +18,7 @@ func InitDB() {
 
 	db.DB()
 	db.AutoMigrate(&models.Comment{})
+	db.AutoMigrate(&models.Term{})
 	DB = db
 }
 
