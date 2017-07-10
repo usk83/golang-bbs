@@ -1,7 +1,6 @@
 package controllers
 
 import (
-	"fmt"
 	"github.com/revel/revel"
 	"golang-bbs/app/controllers"
 	"golang-bbs/app/models"
